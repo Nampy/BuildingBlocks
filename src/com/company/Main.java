@@ -3,6 +3,8 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        int[] arr = {2,2,2};
+        Block block = new Block(arr);
+        System.out.println(block.getSurfaceArea());
     }
 }
